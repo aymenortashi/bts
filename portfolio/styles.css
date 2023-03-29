@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing : border-box; 
+
+}
+body {
+    background-image: url(images/bgpic.jpg)
+
+}
+
+
+.container{
+    padding: 10px 10%;
+
+}
+.container h1{
+    color: #fff;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    padding: 10px;
+    border-style: solid;
+    border-color: #fff;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+   
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0; 
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0; 
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+
+.detel{
+   margin-left: 8%;
+   margin-top: 20%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.detel h2{
+    color: lightgray;
+}
+
+.detel p{
+    font-size: 30px;
+    color: gray;
+    margin-inline-end: 10%;
+}
+
+.detel a{
+    background: none;
+    border-style: solid;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    
+}
+
+
+/*-----------PROJETS--------------*/
+.title h1{
+    color: white;
+}
+.title span{
+    color: lightgray;
+}
+
+
+
+.imagecontain img{
+    margin-bottom: 10px;
+}
+
+.imagecontain p{
+    color: lightgray;
+    size: 20px;
+    background: none;
+}
+    
+
+.imagecontain p{
+    margin-top: 3px;
+    color: lightgray;
+}
+
+.secimg img{
+    margin-bottom: 15%;
+}
+
+/*----------Contact-----------*/
+
+.logo a{
+    border: none;
+}
+
+ 
+
+
+
+refaire un logiciel avec la base de données suivante : 
+
+Air france : Avion, pilote, vol.
+
+Scolarite : Classes, profs, etudiants, cours
+
+Location matérielle : Matierel, client, location, 
+
+avec les operations: ajout / lister / supprimer / modifier
